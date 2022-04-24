@@ -1,0 +1,8 @@
+{
+  "extends": "solhint:default",
+  "plugins": ["prettier"],
+  "rules": {
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "prettier/prettier": "error"
+  }
+}

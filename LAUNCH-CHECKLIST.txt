@@ -1,0 +1,16 @@
+- Initial supply to Treasury 
+
+- initialDistributionFinished:
+  - needs to be set to true in order for anyone except a fee exempt account to 
+    be able to make transfers. Useful for early setup operations.
+
+
+- Fee Exemptions:
+    - AShare
+
+
+- 7 days after launch fees need to be reset to base values
+  - First week has higher selling fees to offset initial dumps
+
+- Staking
+  - Either use the predict address util from vaults at deployment, or set contract addresses for both tokens.
